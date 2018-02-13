@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5856367A2032A2DC005B4582 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585636792032A2DC005B4582 /* AppDelegate.swift */; };
+		5856367F2032A2DD005B4582 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5856367D2032A2DD005B4582 /* Main.storyboard */; };
+		585636822032A2DD005B4582 /* MobiHackathon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 585636802032A2DD005B4582 /* MobiHackathon.xcdatamodeld */; };
+		585636842032A2DD005B4582 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 585636832032A2DD005B4582 /* Assets.xcassets */; };
+		585636872032A2DD005B4582 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 585636852032A2DD005B4582 /* LaunchScreen.storyboard */; };
+		585636922032A2DD005B4582 /* MobiHackathonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585636912032A2DD005B4582 /* MobiHackathonTests.swift */; };
+		5856369D2032A2DD005B4582 /* MobiHackathonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5856369C2032A2DD005B4582 /* MobiHackathonUITests.swift */; };
+		588989E52032AA150003EDAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588989E42032AA150003EDAF /* ViewController.swift */; };
+		588989EB2032AD1D0003EDAF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588989EA2032AD1D0003EDAF /* LoginViewController.swift */; };
+		588989F32032AFBA0003EDAF /* Booking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588989EF2032AFBA0003EDAF /* Booking.swift */; };
+		588989F42032AFBA0003EDAF /* BookingContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588989F02032AFBA0003EDAF /* BookingContact.swift */; };
+		588989F52032AFBA0003EDAF /* PassengerName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588989F12032AFBA0003EDAF /* PassengerName.swift */; };
+		588989F72032B0160003EDAF /* Segment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588989F62032B0160003EDAF /* Segment.swift */; };
+		588989F92032B0910003EDAF /* JourneyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588989F82032B0910003EDAF /* JourneyService.swift */; };
+		588989FB2032B0CD0003EDAF /* BookingPassenger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588989FA2032B0CD0003EDAF /* BookingPassenger.swift */; };
+		588989FE2032B39A0003EDAF /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588989FD2032B39A0003EDAF /* Trip.swift */; };
+		58898A002032B48E0003EDAF /* TripManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588989FF2032B48E0003EDAF /* TripManager.swift */; };
+		58898A022032B6970003EDAF /* hamburger_menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 58898A012032B6970003EDAF /* hamburger_menu.png */; };
+		58898A042032BABB0003EDAF /* BeforeTravelFeatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58898A032032BABB0003EDAF /* BeforeTravelFeatureViewController.swift */; };
+		58898A062032BAD00003EDAF /* AfterTravelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58898A052032BAD00003EDAF /* AfterTravelViewController.swift */; };
+		58898A082032BAE10003EDAF /* DuringTravelFeatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58898A072032BAE10003EDAF /* DuringTravelFeatureViewController.swift */; };
+		58898A112032BE830003EDAF /* SACameraControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58898A0B2032BE830003EDAF /* SACameraControl.swift */; };
+		58898A122032BE830003EDAF /* SASeatBookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58898A0C2032BE830003EDAF /* SASeatBookingView.swift */; };
+		58898A132032BE830003EDAF /* SASeatBookingViewIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58898A0D2032BE830003EDAF /* SASeatBookingViewIterator.swift */; };
+		58898A142032BE830003EDAF /* SASeatFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58898A0E2032BE830003EDAF /* SASeatFactory.swift */; };
+		58898A152032BE830003EDAF /* SAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58898A0F2032BE830003EDAF /* SAViewController.swift */; };
+		58898A162032BE830003EDAF /* Seat.scn in Resources */ = {isa = PBXBuildFile; fileRef = 58898A102032BE830003EDAF /* Seat.scn */; };
+		58898A1A2032C1540003EDAF /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58898A182032C1530003EDAF /* CoreBluetooth.framework */; };
+		58898A1B2032C1540003EDAF /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58898A192032C1540003EDAF /* CoreMotion.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5856368E2032A2DD005B4582 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5856366E2032A2DC005B4582 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 585636752032A2DC005B4582;
+			remoteInfo = MobiHackathon;
+		};
+		585636992032A2DD005B4582 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5856366E2032A2DC005B4582 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 585636752032A2DC005B4582;
+			remoteInfo = MobiHackathon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		585636762032A2DC005B4582 /* MobiHackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobiHackathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		585636792032A2DC005B4582 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5856367E2032A2DD005B4582 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		585636812032A2DD005B4582 /* MobiHackathon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MobiHackathon.xcdatamodel; sourceTree = "<group>"; };
+		585636832032A2DD005B4582 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		585636862032A2DD005B4582 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		585636882032A2DD005B4582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5856368D2032A2DD005B4582 /* MobiHackathonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobiHackathonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		585636912032A2DD005B4582 /* MobiHackathonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobiHackathonTests.swift; sourceTree = "<group>"; };
+		585636932032A2DD005B4582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		585636982032A2DD005B4582 /* MobiHackathonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobiHackathonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5856369C2032A2DD005B4582 /* MobiHackathonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobiHackathonUITests.swift; sourceTree = "<group>"; };
+		5856369E2032A2DD005B4582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		588989E42032AA150003EDAF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		588989EA2032AD1D0003EDAF /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		588989EF2032AFBA0003EDAF /* Booking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Booking.swift; sourceTree = "<group>"; };
+		588989F02032AFBA0003EDAF /* BookingContact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingContact.swift; sourceTree = "<group>"; };
+		588989F12032AFBA0003EDAF /* PassengerName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassengerName.swift; sourceTree = "<group>"; };
+		588989F62032B0160003EDAF /* Segment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Segment.swift; sourceTree = "<group>"; };
+		588989F82032B0910003EDAF /* JourneyService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JourneyService.swift; sourceTree = "<group>"; };
+		588989FA2032B0CD0003EDAF /* BookingPassenger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingPassenger.swift; sourceTree = "<group>"; };
+		588989FD2032B39A0003EDAF /* Trip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		588989FF2032B48E0003EDAF /* TripManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripManager.swift; sourceTree = "<group>"; };
+		58898A012032B6970003EDAF /* hamburger_menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hamburger_menu.png; sourceTree = "<group>"; };
+		58898A032032BABB0003EDAF /* BeforeTravelFeatureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeforeTravelFeatureViewController.swift; sourceTree = "<group>"; };
+		58898A052032BAD00003EDAF /* AfterTravelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AfterTravelViewController.swift; sourceTree = "<group>"; };
+		58898A072032BAE10003EDAF /* DuringTravelFeatureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DuringTravelFeatureViewController.swift; sourceTree = "<group>"; };
+		58898A0B2032BE830003EDAF /* SACameraControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SACameraControl.swift; sourceTree = "<group>"; };
+		58898A0C2032BE830003EDAF /* SASeatBookingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SASeatBookingView.swift; sourceTree = "<group>"; };
+		58898A0D2032BE830003EDAF /* SASeatBookingViewIterator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SASeatBookingViewIterator.swift; sourceTree = "<group>"; };
+		58898A0E2032BE830003EDAF /* SASeatFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SASeatFactory.swift; sourceTree = "<group>"; };
+		58898A0F2032BE830003EDAF /* SAViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SAViewController.swift; sourceTree = "<group>"; };
+		58898A102032BE830003EDAF /* Seat.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Seat.scn; sourceTree = "<group>"; };
+		58898A182032C1530003EDAF /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		58898A192032C1540003EDAF /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		585636732032A2DC005B4582 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58898A1A2032C1540003EDAF /* CoreBluetooth.framework in Frameworks */,
+				58898A1B2032C1540003EDAF /* CoreMotion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5856368A2032A2DD005B4582 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585636952032A2DD005B4582 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5856366D2032A2DC005B4582 = {
+			isa = PBXGroup;
+			children = (
+				585636782032A2DC005B4582 /* MobiHackathon */,
+				585636902032A2DD005B4582 /* MobiHackathonTests */,
+				5856369B2032A2DD005B4582 /* MobiHackathonUITests */,
+				585636772032A2DC005B4582 /* Products */,
+				58898A172032C1530003EDAF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		585636772032A2DC005B4582 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				585636762032A2DC005B4582 /* MobiHackathon.app */,
+				5856368D2032A2DD005B4582 /* MobiHackathonTests.xctest */,
+				585636982032A2DD005B4582 /* MobiHackathonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		585636782032A2DC005B4582 /* MobiHackathon */ = {
+			isa = PBXGroup;
+			children = (
+				588989DE2032A9D10003EDAF /* Generic */,
+				58898A092032BE830003EDAF /* CustomView */,
+				588989E12032A9D10003EDAF /* Models */,
+				588989E32032A9D10003EDAF /* Views */,
+				588989DD2032A9D10003EDAF /* Controllers */,
+				588989E22032A9D10003EDAF /* Resources */,
+				585636792032A2DC005B4582 /* AppDelegate.swift */,
+				5856367D2032A2DD005B4582 /* Main.storyboard */,
+				585636832032A2DD005B4582 /* Assets.xcassets */,
+				585636852032A2DD005B4582 /* LaunchScreen.storyboard */,
+				585636882032A2DD005B4582 /* Info.plist */,
+				585636802032A2DD005B4582 /* MobiHackathon.xcdatamodeld */,
+			);
+			path = MobiHackathon;
+			sourceTree = "<group>";
+		};
+		585636902032A2DD005B4582 /* MobiHackathonTests */ = {
+			isa = PBXGroup;
+			children = (
+				585636912032A2DD005B4582 /* MobiHackathonTests.swift */,
+				585636932032A2DD005B4582 /* Info.plist */,
+			);
+			path = MobiHackathonTests;
+			sourceTree = "<group>";
+		};
+		5856369B2032A2DD005B4582 /* MobiHackathonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5856369C2032A2DD005B4582 /* MobiHackathonUITests.swift */,
+				5856369E2032A2DD005B4582 /* Info.plist */,
+			);
+			path = MobiHackathonUITests;
+			sourceTree = "<group>";
+		};
+		588989DD2032A9D10003EDAF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				588989E42032AA150003EDAF /* ViewController.swift */,
+				588989EA2032AD1D0003EDAF /* LoginViewController.swift */,
+				58898A032032BABB0003EDAF /* BeforeTravelFeatureViewController.swift */,
+				58898A052032BAD00003EDAF /* AfterTravelViewController.swift */,
+				58898A072032BAE10003EDAF /* DuringTravelFeatureViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		588989DE2032A9D10003EDAF /* Generic */ = {
+			isa = PBXGroup;
+			children = (
+				588989DF2032A9D10003EDAF /* APIManagement */,
+				588989E02032A9D10003EDAF /* PlatformManagement */,
+			);
+			path = Generic;
+			sourceTree = "<group>";
+		};
+		588989DF2032A9D10003EDAF /* APIManagement */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = APIManagement;
+			sourceTree = "<group>";
+		};
+		588989E02032A9D10003EDAF /* PlatformManagement */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PlatformManagement;
+			sourceTree = "<group>";
+		};
+		588989E12032A9D10003EDAF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				588989FC2032B13E0003EDAF /* Generic */,
+				588989EE2032AFBA0003EDAF /* Booking */,
+				588989F22032AFBA0003EDAF /* Journey */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		588989E22032A9D10003EDAF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				58898A012032B6970003EDAF /* hamburger_menu.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		588989E32032A9D10003EDAF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		588989EE2032AFBA0003EDAF /* Booking */ = {
+			isa = PBXGroup;
+			children = (
+				588989EF2032AFBA0003EDAF /* Booking.swift */,
+				588989F02032AFBA0003EDAF /* BookingContact.swift */,
+				588989F12032AFBA0003EDAF /* PassengerName.swift */,
+				588989FA2032B0CD0003EDAF /* BookingPassenger.swift */,
+			);
+			path = Booking;
+			sourceTree = "<group>";
+		};
+		588989F22032AFBA0003EDAF /* Journey */ = {
+			isa = PBXGroup;
+			children = (
+				588989F62032B0160003EDAF /* Segment.swift */,
+				588989F82032B0910003EDAF /* JourneyService.swift */,
+			);
+			path = Journey;
+			sourceTree = "<group>";
+		};
+		588989FC2032B13E0003EDAF /* Generic */ = {
+			isa = PBXGroup;
+			children = (
+				588989FD2032B39A0003EDAF /* Trip.swift */,
+				588989FF2032B48E0003EDAF /* TripManager.swift */,
+			);
+			path = Generic;
+			sourceTree = "<group>";
+		};
+		58898A092032BE830003EDAF /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				58898A0A2032BE830003EDAF /* SASeatBookingView */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		58898A0A2032BE830003EDAF /* SASeatBookingView */ = {
+			isa = PBXGroup;
+			children = (
+				58898A0B2032BE830003EDAF /* SACameraControl.swift */,
+				58898A0C2032BE830003EDAF /* SASeatBookingView.swift */,
+				58898A0D2032BE830003EDAF /* SASeatBookingViewIterator.swift */,
+				58898A0E2032BE830003EDAF /* SASeatFactory.swift */,
+				58898A0F2032BE830003EDAF /* SAViewController.swift */,
+				58898A102032BE830003EDAF /* Seat.scn */,
+			);
+			path = SASeatBookingView;
+			sourceTree = "<group>";
+		};
+		58898A172032C1530003EDAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58898A182032C1530003EDAF /* CoreBluetooth.framework */,
+				58898A192032C1540003EDAF /* CoreMotion.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		585636752032A2DC005B4582 /* MobiHackathon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 585636A12032A2DD005B4582 /* Build configuration list for PBXNativeTarget "MobiHackathon" */;
+			buildPhases = (
+				585636722032A2DC005B4582 /* Sources */,
+				585636732032A2DC005B4582 /* Frameworks */,
+				585636742032A2DC005B4582 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobiHackathon;
+			productName = MobiHackathon;
+			productReference = 585636762032A2DC005B4582 /* MobiHackathon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5856368C2032A2DD005B4582 /* MobiHackathonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 585636A42032A2DD005B4582 /* Build configuration list for PBXNativeTarget "MobiHackathonTests" */;
+			buildPhases = (
+				585636892032A2DD005B4582 /* Sources */,
+				5856368A2032A2DD005B4582 /* Frameworks */,
+				5856368B2032A2DD005B4582 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5856368F2032A2DD005B4582 /* PBXTargetDependency */,
+			);
+			name = MobiHackathonTests;
+			productName = MobiHackathonTests;
+			productReference = 5856368D2032A2DD005B4582 /* MobiHackathonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		585636972032A2DD005B4582 /* MobiHackathonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 585636A72032A2DD005B4582 /* Build configuration list for PBXNativeTarget "MobiHackathonUITests" */;
+			buildPhases = (
+				585636942032A2DD005B4582 /* Sources */,
+				585636952032A2DD005B4582 /* Frameworks */,
+				585636962032A2DD005B4582 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5856369A2032A2DD005B4582 /* PBXTargetDependency */,
+			);
+			name = MobiHackathonUITests;
+			productName = MobiHackathonUITests;
+			productReference = 585636982032A2DD005B4582 /* MobiHackathonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5856366E2032A2DC005B4582 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Amith;
+				TargetAttributes = {
+					585636752032A2DC005B4582 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					5856368C2032A2DD005B4582 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 585636752032A2DC005B4582;
+					};
+					585636972032A2DD005B4582 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 585636752032A2DC005B4582;
+					};
+				};
+			};
+			buildConfigurationList = 585636712032A2DC005B4582 /* Build configuration list for PBXProject "MobiHackathon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5856366D2032A2DC005B4582;
+			productRefGroup = 585636772032A2DC005B4582 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				585636752032A2DC005B4582 /* MobiHackathon */,
+				5856368C2032A2DD005B4582 /* MobiHackathonTests */,
+				585636972032A2DD005B4582 /* MobiHackathonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		585636742032A2DC005B4582 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				585636872032A2DD005B4582 /* LaunchScreen.storyboard in Resources */,
+				58898A162032BE830003EDAF /* Seat.scn in Resources */,
+				585636842032A2DD005B4582 /* Assets.xcassets in Resources */,
+				58898A022032B6970003EDAF /* hamburger_menu.png in Resources */,
+				5856367F2032A2DD005B4582 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5856368B2032A2DD005B4582 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585636962032A2DD005B4582 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		585636722032A2DC005B4582 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58898A152032BE830003EDAF /* SAViewController.swift in Sources */,
+				58898A142032BE830003EDAF /* SASeatFactory.swift in Sources */,
+				588989F52032AFBA0003EDAF /* PassengerName.swift in Sources */,
+				58898A122032BE830003EDAF /* SASeatBookingView.swift in Sources */,
+				588989F92032B0910003EDAF /* JourneyService.swift in Sources */,
+				58898A042032BABB0003EDAF /* BeforeTravelFeatureViewController.swift in Sources */,
+				58898A002032B48E0003EDAF /* TripManager.swift in Sources */,
+				588989EB2032AD1D0003EDAF /* LoginViewController.swift in Sources */,
+				588989E52032AA150003EDAF /* ViewController.swift in Sources */,
+				588989FB2032B0CD0003EDAF /* BookingPassenger.swift in Sources */,
+				58898A062032BAD00003EDAF /* AfterTravelViewController.swift in Sources */,
+				588989F72032B0160003EDAF /* Segment.swift in Sources */,
+				585636822032A2DD005B4582 /* MobiHackathon.xcdatamodeld in Sources */,
+				5856367A2032A2DC005B4582 /* AppDelegate.swift in Sources */,
+				58898A082032BAE10003EDAF /* DuringTravelFeatureViewController.swift in Sources */,
+				588989F42032AFBA0003EDAF /* BookingContact.swift in Sources */,
+				588989FE2032B39A0003EDAF /* Trip.swift in Sources */,
+				58898A112032BE830003EDAF /* SACameraControl.swift in Sources */,
+				588989F32032AFBA0003EDAF /* Booking.swift in Sources */,
+				58898A132032BE830003EDAF /* SASeatBookingViewIterator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585636892032A2DD005B4582 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				585636922032A2DD005B4582 /* MobiHackathonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585636942032A2DD005B4582 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5856369D2032A2DD005B4582 /* MobiHackathonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5856368F2032A2DD005B4582 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 585636752032A2DC005B4582 /* MobiHackathon */;
+			targetProxy = 5856368E2032A2DD005B4582 /* PBXContainerItemProxy */;
+		};
+		5856369A2032A2DD005B4582 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 585636752032A2DC005B4582 /* MobiHackathon */;
+			targetProxy = 585636992032A2DD005B4582 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5856367D2032A2DD005B4582 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5856367E2032A2DD005B4582 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		585636852032A2DD005B4582 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				585636862032A2DD005B4582 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5856369F2032A2DD005B4582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		585636A02032A2DD005B4582 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		585636A22032A2DD005B4582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MobiHackathon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Amith.MobiHackathon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		585636A32032A2DD005B4582 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MobiHackathon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Amith.MobiHackathon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		585636A52032A2DD005B4582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MobiHackathonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Amith.MobiHackathonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobiHackathon.app/MobiHackathon";
+			};
+			name = Debug;
+		};
+		585636A62032A2DD005B4582 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MobiHackathonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Amith.MobiHackathonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobiHackathon.app/MobiHackathon";
+			};
+			name = Release;
+		};
+		585636A82032A2DD005B4582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MobiHackathonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Amith.MobiHackathonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MobiHackathon;
+			};
+			name = Debug;
+		};
+		585636A92032A2DD005B4582 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MobiHackathonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Amith.MobiHackathonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MobiHackathon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		585636712032A2DC005B4582 /* Build configuration list for PBXProject "MobiHackathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5856369F2032A2DD005B4582 /* Debug */,
+				585636A02032A2DD005B4582 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		585636A12032A2DD005B4582 /* Build configuration list for PBXNativeTarget "MobiHackathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				585636A22032A2DD005B4582 /* Debug */,
+				585636A32032A2DD005B4582 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		585636A42032A2DD005B4582 /* Build configuration list for PBXNativeTarget "MobiHackathonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				585636A52032A2DD005B4582 /* Debug */,
+				585636A62032A2DD005B4582 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		585636A72032A2DD005B4582 /* Build configuration list for PBXNativeTarget "MobiHackathonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				585636A82032A2DD005B4582 /* Debug */,
+				585636A92032A2DD005B4582 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		585636802032A2DD005B4582 /* MobiHackathon.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				585636812032A2DD005B4582 /* MobiHackathon.xcdatamodel */,
+			);
+			currentVersion = 585636812032A2DD005B4582 /* MobiHackathon.xcdatamodel */;
+			path = MobiHackathon.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5856366E2032A2DC005B4582 /* Project object */;
+}
